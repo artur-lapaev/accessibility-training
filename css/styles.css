@@ -1,3 +1,82 @@
+:focus {
+  outline: 0;
+  box-shadow: 0 0 0 2px hsla(210, 100%, 50%, 0.5);
+}
+
+.skip-link {
+  background: #aa1f1f;
+  color: #fff;
+  font-weight: 700;
+  left: 0%;
+  padding: 4px;
+  position: absolute;
+  transform: translateY(-100%);
+}
+
+.skip-link:focus {
+  transform: translateY(0%);
+}
+
+.visuallyhidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.visuallyhidden:focus {
+  height: auto;
+  width: auto;
+  clip: auto;
+}
+
+.button.is-info {
+  background-color: #0B4A75;
+}
+
+.button.is-info:hover {
+  background-color: #072c44;
+}
+
+.subtitle.is-5 {
+  color: #171717;
+}
+
+.is-black {
+  color: #000000 !important;
+}
+
+.tag.is-danger {
+  background-color: #D1002A;
+}
+
+.tag.is-primary.is-medium {
+  background-color: #007564;
+}
+
+.tag.is-success.is-medium {
+  background-color: #126D32;
+}
+
+.help.is-success {
+  color: #16833C;
+}
+
+.help.is-danger {
+  color: #D6002B;
+}
+
+.footer nav ul li a {
+  color: #2262C9;
+}
+
+.is-blue {
+  color: #2262C9;
+}
+
 .hero-bg {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../img/accessibility-hero-banner.jpg") no-repeat center center fixed;
