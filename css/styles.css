@@ -1,3 +1,7 @@
+p {
+  line-height: 1.5;
+}
+
 :focus {
   outline: 0;
   box-shadow: 0 0 0 2px hsla(210, 100%, 50%, 0.5);
@@ -49,7 +53,7 @@
   color: #000000 !important;
 }
 
-.tag.is-danger {
+span.tag.is-danger {
   background-color: #D1002A;
 }
 
